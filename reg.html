@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OCT-Register</title>
+	<style type="text/css">
+		body{
+			background-image: url("img/regbg.jpg");
+			height: 657px;
+			width: 100%;
+			background-image: url("img/regbg.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+			object-fit: cover;	
+			background-size: cover;
+		}
+	</style>
+<link rel="stylesheet" type="text/css" href="css/reg.css">
+</script>
+</head>
+<body>
+		<?php if($msg !=''): ?>
+      	<div class="alert <?php echo $msgClass; ?>"><?php echo $msg; ?></div>
+        <?php endif; ?>
+	<form action="reg.php" method="post" enctype="multipart/form-data">
+	<div class="jumbotron">
+	<div class="table">
+		<center><br>
+		<h2 class="oct">Online Campus Tutorial</h2>
+		<h2 class="oct">REGISTRATION</h2><br>
+	<p><input type="text" name="name" class="box" placeholder="Enter Name" required></p>
+<br>
+	<p><input type="text" name="enRoll" class="box" placeholder="Enter ENROL Number" required></p>
+
+<br>
+<p><input type="email" name="email" class="box" placeholder="Enter e-mail" required></p>
+<br>
+<p><input type="password" name="password" class="box" placeholder="Enter Password" required></p>
+<br>
+<p class="spac">Branch: <input type="radio" name="branch" value="CSE" required>CSE  
+<input type="radio" name="branch" value="ME" required>  ME
+<input type="radio" name="branch" value="CE" required>  CE
+<input type="radio" name="branch" value="FT" required>  FT</p>
+<br>
+<p><input type="checkbox" name="checkbox" required>I agree to the T&C's</p>
+
+<br>
+<input type="submit" value="LOGIN" class="sub">
+
+</center>
+</div>
+</div>
+</form>
+</body>
+</html>

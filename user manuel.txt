@@ -1,0 +1,22 @@
+Step 1: Home Page- 
+		:Course
+		:Faculties
+		:Sign In 
+		:About Us
+		:IPS Acadmey Website
+		:Campus Active 
+	
+Step 2:Courses-:There will be a list of courses and their detials.
+
+Step 3:Faculties-:List of Faculties members where user can know about their professional information.  
+	
+Step 4:Sign In-:User can Sign-In to watch the video tutorials online of respective subjects.
+	       :If user is not the member of OCT he/she has to register first.
+
+Step 5:Register-:User can register in OCT by filling the registration form.
+
+Step 6:About OCT-:User can know about Online Campus Tutorial.
+
+Step 7:IPS Academy's Website-:User can know more about the college by going to this website.
+
+Step 8:Campus Active-:User can also login to campus active to know his/her academics details. 
